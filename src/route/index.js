@@ -53,7 +53,7 @@ export const routes = {
             path: 'kpihome',
             getComponent(nextState,cb){
                 require.ensure([],require=>{
-                    cb(null,require('../views/kra/kpiHome'));
+                    cb(null,require('../views/kpi/kpiHome'));
                 },'kpi')
             },
 
@@ -62,7 +62,7 @@ export const routes = {
             path: 'kpiplan',
             getComponent(nextState,cb){
                 require.ensure([],require=>{
-                    cb(null,require('../views/kra/kpiPlan'));
+                    cb(null,require('../views/kpi/kpiPlan'));
                 },'kpi')
             },
 
@@ -71,7 +71,7 @@ export const routes = {
             path: 'kpidetail',
             getComponent(nextState,cb){
                 require.ensure([],require=>{
-                    cb(null,require('../views/kra/kpiDetail'));
+                    cb(null,require('../views/kpi/kpiDetail'));
                 },'kpi')
             },
 
@@ -80,7 +80,7 @@ export const routes = {
             path: 'kpigrade',
             getComponent(nextState,cb){
                 require.ensure([],require=>{
-                    cb(null,require('../views/kra/kpiGrade'));
+                    cb(null,require('../views/kpi/kpiGrade'));
                 },'kpi')
             },
 
