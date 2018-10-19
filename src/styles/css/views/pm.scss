@@ -1,0 +1,103 @@
+.pm-box {
+  min-height: 920px;
+  position: relative;
+  .pm-content {
+    float: right;
+    width: 920px;
+    height: 780px;
+    background-color: #ffffff;
+    .title {
+      padding: 30px 30px 20px;
+      h4 {
+        color: #333333;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        span.editbtn {
+          width: 12px;
+          height: 14px;
+          display: inline-block;
+          background: url("../../static/icon/sprite.png")no-repeat -40px -300px;
+          margin-left: 20px;
+          cursor: pointer;
+        }
+        span.delbtn {
+          width: 12px;
+          height: 14px;
+          display: inline-block;
+          background: url("../../static/icon/sprite.png")no-repeat -20px -300px;
+          margin-left: 20px;
+          cursor: pointer;
+        }
+      }
+      p {
+        margin-bottom: 20px;
+        color: #666666;
+      }
+    }
+  }
+  .initial-department {
+    width: 240px;
+    height: 42px;
+    line-height: 42px;
+    background: #1194FE;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px #666666;
+    text-align: center;
+    position: absolute;
+    cursor: pointer;
+  }
+  .grad-content {
+    height: 740px;
+    background-color: #EEEEEE;
+    position: relative;
+    .grad-empty {
+      background-color: #ffffff;
+      height: 666px;
+      .words {
+        display: inline-block;
+        color: #A7AEB7;
+        position: absolute;
+        top: 285px;
+        span {
+          font-size: 30px;
+        }
+        p {
+          font-size: 18px;
+          margin-top: 20px;
+        }
+      }
+      &:before{
+        content: '';
+        display: inline-block;
+        width: 220px;
+        height: 214px;
+        background: url("../../static/images/kong.png")no-repeat;
+        margin: 215px 55px 0 300px;
+      }
+    }
+    .addGrad-btn {
+      display: inline-block;
+      position: absolute;
+      bottom: 10px;
+      left: 30px;
+      width: 130px;
+      height: 32px;
+      line-height: 32px;
+      text-align: center;
+      background: #1194FE;
+      color: #ffffff;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+}
+.blue-status {
+  color: #1194FE;
+}
+.red-status {
+  color: #f04134;
+}
+.row-class {
+  background-color: #fafafa;
+}
